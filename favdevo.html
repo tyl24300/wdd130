@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+
+<style>
+  /* Add your CSS here to style your father's day page */
+/* 
+ul {
+    margin: auto;
+    text-align: center;
+    list-style-position: inside;
+    border: 4px solid black;
+    background-color:aquamarine; */
+
+
+body {
+    background-color:#E0EDF5;
+}
+
+ul {
+  font-size: 17px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border: 3px solid rgb(90, 90, 90);
+  background-color:#ACD2D7;
+  padding: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+  margin-left: 1ch;
+}
+li {
+  padding-left: 1ch;
+}
+li::before {
+  content: '•';
+  display: inline-block;
+  margin-right: 1ch;
+  width: 1ch;
+  text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px #74AED2;
+}
+
+img {
+    text-align: center;
+    margin: auto;
+    display: block;
+    box-shadow: 0 0 13px black;
+    padding: 10px;
+    width: 665px;
+    height: 465px;
+    border-radius: 4px;
+}
+img:hover{
+  opacity: 1;
+  filter: blur(2px);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+h2 {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px #74AED2;
+}
+
+p {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 4px;
+}
+
+footer {
+    padding: 5.5px;
+    margin: 10px;
+    font-size: 15px;
+    border: 3px solid rgb(90, 90, 90);
+    background-color:#ACD2D7;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+
+      <table>
+        <tr>
+          <th>Devo Name</th>
+          <th>Speaker</th>
+          <th>Date</th>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td>Hastening the Work in You</td>
+          <td>Elder Kevin Brown</td>
+          <td>5-13-2025</td>
+          <td>I-Center</td>
+        </tr>
+        <tr>
+          <td>Drawing Strength From the Savior's Love</td>
+          <td>Elder Ulisses Soares</td>
+          <td>4-27-2025</td>
+          <td>I-Center</td>
+        </tr>
+        <tr>
+          <td>The Ten-Minute Miracle</td>
+          <td>Diantha Hopkins</td>
+          <td>2-25-2025</td>
+          <td>I-Center</td>
+        </tr>
+      </table> 
+
+      <div class="form">
+
+      <form action="#">
+      <label for="dname">Devo Name:</label><br>
+      <input type="text" id="dname" name="dname" value="#"><br>
+      <label for="speaker">Speaker:</label><br>
+      <input type="text" id="speaker" name="speaker" value="#"><br><br>
+      <label for="date">Date:</label><br>
+      <input type="text" id="date" name="date" value="#"><br><br>
+      <label for="link">Link:</label><br>
+      <input type="text" id="link" name="link" value="#"><br><br>
+      <input type="submit" value="Submit">
+      </form>
+
+      </div>
+
+      </div>
+    </main>
+  </div>
+</body>
+</html>
